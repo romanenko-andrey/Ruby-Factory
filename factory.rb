@@ -32,3 +32,4 @@ puts '!!!=>' + joe[:first_name] .to_s # => "Andrey"
 puts '!!!!=>' + joe[0].to_s          # => "Andrey"
 puts joe.greeting # => "Hello Andrey!"
 
+puts Customer.new('Bob', 'Dnepr-city', 49000).greeting # => "Hello Bob!"
