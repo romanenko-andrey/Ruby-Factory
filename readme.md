@@ -1,3 +1,4 @@
+
 Factory == Struct
 
 Example 1:
