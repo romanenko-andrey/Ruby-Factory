@@ -7,13 +7,10 @@ Customer = Factory.new(:first_name, :address, :zip)
 
 user = Customer.new('Andrey', 'Dnepr-city', 49000)
 
-    user.first_name.to_s        **#>="Andrey"**
-
-    user['first_name'].to_s     **#>="Andrey"**
-
-    user[:first_name] .to_s     **#>="Andrey"**
-
-    user[0].to_s                **#>="Andrey"**
+    user.first_name.to_s        #>="Andrey"
+    user['first_name'].to_s     #>="Andrey"
+    user[:first_name] .to_s     #>="Andrey"
+    user[0].to_s                #>="Andrey"
  
 ***
 ###Example 2:
