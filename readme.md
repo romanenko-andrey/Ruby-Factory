@@ -23,4 +23,4 @@ user = Customer.new('Andrey', 'Dnepr-city', 49000)
 
 >end
 
-Customer.new('Bob', 'Dnepr-city', 49000).greeting    => "Hello Bob!"
+    Customer.new('Bob', 'Dnepr-city', 49000).greeting    #=> "Hello Bob!"
