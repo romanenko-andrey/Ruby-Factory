@@ -3,7 +3,7 @@ Factory is Struct
 ***
 ###Example 1:
 
-Customer = Factory.new(:first_name, :address, :zip)
+Customer = 'Factory.new(:first_name, :address, :zip)'
 
 user = Customer.new('Andrey', 'Dnepr-city', 49000)
 
