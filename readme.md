@@ -19,13 +19,9 @@ user = Customer.new('Andrey', 'Dnepr-city', 49000)
 ###Example 2:
 
 Customer = Factory.new(:first_name, :address, :zip) do
-
-  def greeting
-  
-     "Hello #{first_name}!"
-     
-  end
-  
+     def greeting
+          "Hello #{first_name}!"
+     end
 end
 
 Customer.new('Bob', 'Dnepr-city', 49000).greeting    => "Hello Bob!"
