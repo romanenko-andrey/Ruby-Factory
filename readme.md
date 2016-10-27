@@ -6,10 +6,10 @@ Factory is Struct
 Customer = Factory.new(:first_name, :address, :zip)
 user = Customer.new('Andrey', 'Dnepr-city', 49000)
 
-user.first_name.to_s        # => "Andrey"
-user['first_name'].to_s     # => "Andrey"
-user[:first_name] .to_s     # => "Andrey"
-user[0].to_s                # => "Andrey"
+ user.first_name.to_s        => "Andrey"
+ user['first_name'].to_s     => "Andrey"
+ user[:first_name] .to_s     => "Andrey"
+ user[0].to_s                => "Andrey"
 ***
 ###Example 2:
 
@@ -19,4 +19,4 @@ Customer = Factory.new(:first_name, :address, :zip) do
   end
 end
 
-Customer.new('Bob', 'Dnepr-city', 49000).greeting    # => "Hello Bob!"
+Customer.new('Bob', 'Dnepr-city', 49000).greeting    => "Hello Bob!"
